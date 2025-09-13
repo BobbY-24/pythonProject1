@@ -1,4 +1,6 @@
-yfinance
-pandas
+
 numpy
 pyarrow
+yfinance
+pandas
+
