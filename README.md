@@ -1,10 +1,10 @@
 # Stock Portfolio Managing Agent
 
 ## Overview
-This project is an experimental stock portfolio research and backtesting workspace. It includes data fetching, local data storage, rule-based and ML-oriented agents, portfolio simulation, performance metrics, notebooks, and tests. The project is still in progress, but it has a more substantial software structure than the repository name suggests.
+I built this repository as an experimental stock portfolio research and backtesting workspace. It includes data fetching, local data storage, rule-based and ML-oriented agents, portfolio simulation, performance metrics, notebooks, and tests.
 
 ## Motivation
-This repo is valuable as a bridge between data science, software engineering, and finance-oriented experimentation. It demonstrates modular code organization, test scaffolding, backtesting concepts, and early agent design. With continued cleanup, it could become a strong applied ML systems project.
+I use this project to connect data science, software engineering, and finance-oriented experimentation. I use it to practice modular code organization, backtesting concepts, agent design, and evaluation discipline.
 
 ## Project Structure
 ```text
@@ -24,32 +24,31 @@ requirements.txt
 ```
 
 ## Methods
-- Fetch and store OHLCV stock data.
-- Generate rule-based and ML-based signals.
-- Simulate portfolio behavior through backtests.
-- Compute performance metrics.
-- Prototype API schemas and endpoints.
+- I fetch and store OHLCV stock data.
+- I prototype rule-based and ML-based signals.
+- I simulate portfolio behavior through backtests.
+- I compute performance metrics.
+- I experiment with API schemas and endpoints.
 
 ## Results
-TODO: add metric after rerunning notebook.
+I have not finalized a single benchmark metric for this repo yet because the project is still an active engineering workspace. The current value is in the structure, tests, and backtesting pipeline rather than a polished performance claim.
 
 ## Key Insights
-- The repo already has a promising modular structure.
-- The project should be renamed on GitHub from `pythonProject1` to something like `stock-portfolio-managing-agent`.
-- The strongest next improvement is documentation and a reproducible example run.
+- The codebase already has a useful modular structure for future finance experiments.
+- The next important step is a clean reproducible backtest command with fixed sample data.
+- This project would be stronger under the repository name `stock-portfolio-managing-agent`.
 
 ## Limitations
-- This is not investment advice.
+- I do not intend this as investment advice.
 - Backtests can be misleading without transaction costs, walk-forward validation, and leakage checks.
-- Some notebooks and data files need cleanup.
-- The repository name currently undersells the project.
+- Some notebooks and data files still need cleanup.
+- The current repository name undersells the project.
 
 ## Future Improvements
 - Rename the repository to `stock-portfolio-managing-agent`.
-- Add a minimal reproducible backtest command.
+- Add a minimal reproducible backtest example.
 - Add architecture notes in `docs/`.
-- Add tests for metrics, data loading, and portfolio simulation.
-- Separate sample data from generated/cache data.
+- Add stronger tests for metrics, data loading, and portfolio simulation.
 
 ## How to Run
 ```bash
